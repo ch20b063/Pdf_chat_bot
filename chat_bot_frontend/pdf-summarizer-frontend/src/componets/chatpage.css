@@ -1,0 +1,30 @@
+.container {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .pdf-list {
+    width: 30%;
+    padding: 10px;
+    border-right: 1px solid #ccc;
+    overflow-y: auto;
+  }
+  
+  .chat-window {
+    width: 70%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .chat-messages {
+    flex-grow: 1;
+    overflow-y: auto;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
+  }
+  
+  .chat-message {
+    margin: 5px 0;
+  }
+  
